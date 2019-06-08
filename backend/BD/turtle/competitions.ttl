@@ -1,0 +1,120 @@
+
+:competition_56819 rdf:type owl:NamedIndividual, :Tour ;
+	:country "UNITED STATES OF AMERICA";
+	:date "12 May-18 May 2019";
+	:name "Amgen Tour of California".
+ 
+:competition_57048 rdf:type owl:NamedIndividual, :Tour ;
+	:country "ITALY";
+	:date "11 May-02 Jun 2019";
+	:name "Giro d'Italia".
+
+:competition_56696 rdf:type owl:NamedIndividual, :Classic ;
+	:country "GERMANY";
+	:date "01 May 2019";
+	:name "Eschborn-Frankfurt".
+
+:competition_56697 rdf:type owl:NamedIndividual, :Tour ;
+	:country "SWITZERLAND";
+	:date "30 Apr-05 May 2019";
+	:name "Tour de Romandie".
+
+:competition_57047 rdf:type owl:NamedIndividual, :Classic ;
+	:country "BELGIUM";
+	:date "28 Apr 2019";
+	:name "Liège-Bastogne-Liège".
+
+:competition_57046 rdf:type owl:NamedIndividual, :Classic ;
+	:country "BELGIUM";
+	:date "24 Apr 2019";
+	:name "La Flèche Wallonne".
+
+:competition_56695 rdf:type owl:NamedIndividual, :Classic ;
+	:country "NETHERLANDS";
+	:date "21 Apr 2019";
+	:name "Amstel Gold Race".
+
+:competition_56821 rdf:type owl:NamedIndividual, :Tour ;
+	:country "TURKEY";
+	:date "16 Apr-21 Apr 2019";
+	:name "Presidential Cycling Tour of Turkey".
+
+:competition_57045 rdf:type owl:NamedIndividual, :Classic ;
+	:country "FRANCE";
+	:date "14 Apr 2019";
+	:name "Paris-Roubaix".
+
+:competition_56692 rdf:type owl:NamedIndividual, :Tour ;
+	:country "SPAIN";
+	:date "08 Apr-13 Apr 2019";
+	:name "Itzulia Basque Country".
+
+:competition_56691 rdf:type owl:NamedIndividual, :Classic ;
+	:country "BELGIUM";
+	:date "07 Apr 2019";
+	:name "Ronde van Vlaanderen - Tour des Flandres".
+
+:competition_56683 rdf:type owl:NamedIndividual, :Classic ;
+	:country "BELGIUM";
+	:date "03 Apr 2019";
+	:name "Dwars door Vlaanderen - A travers la Flandre".
+
+:competition_56693 rdf:type owl:NamedIndividual, :Classic ;
+	:country "BELGIUM";
+	:date "31 Mar 2019";
+	:name "Gent-Wevelgem in Flanders Fields".
+
+:competition_56684 rdf:type owl:NamedIndividual, :Classic ;
+	:country "BELGIUM";
+	:date "29 Mar 2019";
+	:name "E3 BinckBank Classic".
+
+:competition_56687 rdf:type owl:NamedIndividual, :Classic ;
+	:country "BELGIUM";
+	:date "27 Mar 2019";
+	:name "Driedaagse Brugge-De Panne".
+
+:competition_56716 rdf:type owl:NamedIndividual, :Tour ;
+	:country "SPAIN";
+	:date "25 Mar-31 Mar 2019";
+	:name "Volta Ciclista a Catalunya".
+
+:competition_57044 rdf:type owl:NamedIndividual, :Classic ;
+	:country "ITALY";
+	:date "23 Mar 2019";
+	:name "Milano-Sanremo".
+
+:competition_57043 rdf:type owl:NamedIndividual, :Tour ;
+	:country "ITALY";
+	:date "13 Mar-19 Mar 2019";
+	:name "Tirreno-Adriatico".
+
+:competition_57042 rdf:type owl:NamedIndividual, :Tour ;
+	:country "FRANCE";
+	:date "10 Mar-17 Mar 2019";
+	:name "Paris-Nice".
+
+:competition_56918 rdf:type owl:NamedIndividual, :Classic ;
+	:country "ITALY";
+	:date "09 Mar 2019";
+	:name "Strade Bianche".
+
+:competition_56792 rdf:type owl:NamedIndividual, :Classic ;
+	:country "BELGIUM";
+	:date "02 Mar 2019";
+	:name "Omloop Het Nieuwsblad Elite".
+
+:competition_57006 rdf:type owl:NamedIndividual, :Tour ;
+	:country "UNITED ARAB EMIRATES";
+	:date "24 Feb-02 Mar 2019";
+	:name "UAE Tour".
+
+:competition_56999 rdf:type owl:NamedIndividual, :Classic ;
+	:country "AUSTRALIA";
+	:date "27 Jan 2019";
+	:name "Cadel Evans Great Ocean Road Race".
+
+:competition_56926 rdf:type owl:NamedIndividual, :Tour ;
+	:country "AUSTRALIA";
+	:date "15 Jan-20 Jan 2019";
+	:name "Santos Tour Down Under".

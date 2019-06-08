@@ -1,0 +1,2080 @@
+:team_3O3 rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "management@303project.com";
+	:name "303 PROJECT";
+	:teamCategory "CTM";
+	:website "https://www.303project.com".
+
+:team_7RP rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "PHI";
+	:email "rickdr888@yahoo.com";
+	:name "7ELEVEN CLIQQ - AIR21 BY ROADBIKE PHILIPPINES";
+	:teamCategory "CTM";
+	:website "https://www.7-eleven.com.ph/".
+
+:team_ACS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "CZE";
+	:email "rubas@sparta-cycling.cz";
+	:name "AC SPARTA PRAHA";
+	:teamCategory "CTM";
+	:website "http://www.sparta-cycling.com".
+
+:team_ADR rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "SLO";
+	:email "cycling@adria-mobil.com";
+	:name "ADRIA MOBIL";
+	:teamCategory "CTM";
+	:website "http://www.adria-mobil-cycling.com/si".
+
+:team_AEV rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "aevolocycling@gmail.com";
+	:name "AEVOLO";
+	:teamCategory "CTM";
+	:website "https://www.aevolocycling.org/".
+
+:team_ALM rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "equipe@france-cyclisme.fr";
+	:name "AG2R LA MONDIALE";
+	:teamCategory "WTT";
+	:website "https://www.cyclisme.ag2rlamondiale.fr".
+
+:team_AIS rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "JPN";
+	:email "aisanracingteam@gmail.com";
+	:name "AISAN RACING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.aisan.net".
+
+:team_AKT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "SUI";
+	:email "info@cycswiss.ch";
+	:name "AKROS - THÖMUS";
+	:teamCategory "CTM";
+	:website "http://www.cycswiss.ch".
+
+:team_ALE rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "ale.team@apgcycling.com";
+	:name "ALE CIPOLLINI";
+	:teamCategory "CTW";
+	:website "http://www.alecipolliniteam.com/".
+
+:team_ALE rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "pietrooijakkers@yahoo.co.uk";
+	:name "ALECTO CYCLINGTEAM";
+	:teamCategory "CTM";
+	:website "https://alectocyclingteam.nl/".
+
+:team_AMO rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "LAT";
+	:email "cristian.fanini@gmail.com";
+	:name "AMORE & VITA - PRODIR";
+	:teamCategory "CTM";
+	:website "http://www.team-amoreevita.com/".
+
+:team_ANS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "info@azcyclingmbh.ch";
+	:name "ANDRONI GIOCATTOLI - SIDERMEC";
+	:teamCategory "PCT";
+	:website "http://www.androniteam.it".
+
+:team_APL rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KAZ";
+	:email "appleteam.almaty@gmail.com";
+	:name "APPLE TEAM";
+	:teamCategory "CTM";
+	:website "http://appleteam.kz".
+
+:team_AHB rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "racingteam@hincapiesports.com";
+	:name "ARAPAHOE | HINCAPIE POWERED BY BMC";
+	:teamCategory "CTM";
+	:website "http://www.hincapieracing.com".
+
+:team_VAI rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "VELOCLUBVAIANO@VIRGILIO.IT";
+	:name "AROMITALIA - BASSO BIKES - VAIANO";
+	:teamCategory "CTW";
+	:website "HTTP://WWW.VELOCLUBVAIANO..IT".
+
+:team_ACM rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "ARG";
+	:email "asoccivil.mardan2007@gmail.com";
+	:name "ASOCIACION CIVIL \"MARDAN\"";
+	:teamCategory "CTM";
+	:website "http://www.asociacionmardan.org.com".
+
+:team_AVF rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "ARG";
+	:email "agrupacionvirgendefatima@hotmail.com";
+	:name "ASOCIACIÓN CIVIL AGRUPACIÓN VIRGEN DE FATIMA";
+	:teamCategory "CTM";
+	:website "http://www.ciclismoarg.com".
+
+:team_TSE rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KAZ";
+	:email "admin@kaliriltd.com";
+	:name "ASTANA CITY";
+	:teamCategory "CTM";
+	:website "http://cycling.kz".
+
+:team_AST rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KAZ";
+	:email "info@astana.lu";
+	:name "ASTANA PRO TEAM";
+	:teamCategory "WTT";
+	:website "http://www.astanaproteam.kz/".
+
+:team_ASA rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KAZ";
+	:email "team@astanawomen.com";
+	:name "ASTANA WOMEN'S TEAM";
+	:teamCategory "CTW";
+	:website "HTTPS://www.astanawomen.com".
+
+:team_AVL rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POR";
+	:email "louletanodc@mail.telepac.pt";
+	:name "AVILUDO - LOULETANO";
+	:teamCategory "CTM";
+	:website "https://louletano.pt".
+
+:team_TBM rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "BRN";
+	:email "info@bahraincyclingteam.com";
+	:name "BAHRAIN - MERIDA";
+	:teamCategory "WTT";
+	:website "http://teambahrainmerida.com".
+
+:team_BSP rdf:type owl:NamedIndividual, :Team ;
+	:continent "AFR";
+	:country "ANG";
+	:email "carloscece@outlook.com";
+	:name "BAI SICASAL PETRO DE LUANDA";
+	:teamCategory "CTM";
+	:website "https://www.petroatletico.co.ao".
+
+:team_BRD rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "info@gm-sport.it";
+	:name "BARDIANI CSF";
+	:teamCategory "PCT";
+	:website "http://www.bardianicsf.com/".
+
+:team_BRT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "road@beatcycling.club";
+	:name "BEAT CYCLING CLUB";
+	:teamCategory "CTM";
+	:website "https://www.beatcycling.club".
+
+:team_BHP rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "s.teambeltramiu23@libero.it";
+	:name "BELTRAMITSA HOPPLA' PETROLI FIRENZE";
+	:teamCategory "CTM";
+	:website "http://teambeltramiargin18.it".
+
+:team_BEX rdf:type owl:NamedIndividual, :Team ;
+	:continent "AFR";
+	:country "RWA";
+	:email "info@benedictioncyclingclub.com";
+	:name "BENEDICTION EXCEL ENERGY";
+	:teamCategory "CTM";
+	:website "http://www.benedictioncyclingclub.com".
+
+:team_BPK rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "info@bepink.eu";
+	:name "BEPINK";
+	:teamCategory "CTW";
+	:website "http://www.bepink.eu".
+
+:team_BET rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "COL";
+	:email "norbertowilchesrodriguez@gmail.com";
+	:name "BETPLAY CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "https://www.instagram.com/betplayteam/?hl=es-la".
+
+:team_ABB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "DEN";
+	:email "info@andreasen-sport.dk";
+	:name "BHS - ALMEBORG BORNHOLM";
+	:teamCategory "CTM";
+	:website "http://bhs-almeborg.dk/".
+
+:team_BPC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "hans.blom@i4cycling.nl";
+	:name "BIEHLER PRO CYCLING";
+	:teamCategory "CTW";
+	:website "http://www.swaboladies.nl".
+
+:team_BIC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "team@biessecarrera.com";
+	:name "BIESSE CARRERA";
+	:teamCategory "CTM";
+	:website "https://www.biessecarrera.com/".
+
+:team_BIG rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "DEN";
+	:email "thomas.campana@cuagsports.com";
+	:name "BIGLA";
+	:teamCategory "CTW";
+	:website "https://www.bpct.ch/".
+
+:team_BAI rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "team@windkante.com";
+	:name "BIKE AID";
+	:teamCategory "CTM";
+	:website "https://road.bike-aid.de".
+
+:team_BDU rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "bizkaiadurango@gmail.com";
+	:name "BIZKAIA - DURANGO";
+	:teamCategory "CTW";
+	:website "http://www.duranguesa.com".
+
+:team_DLT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "finance@boelsdolmanscyclingteam.com";
+	:name "BOELS DOLMANS CYCLINGTEAM";
+	:teamCategory "CTW";
+	:website "http://www.boelsdolmanscyclingteam.com".
+
+:team_BOH rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "info@pro-cycling-gmbh.de";
+	:name "BORA - HANSGROHE";
+	:teamCategory "WTT";
+	:website "https://www.bora-hansgrohe.com".
+
+:team_BRC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "BRU";
+	:email "admin@bruneicontinental.com";
+	:name "BRUNEI CONTINENTAL CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.bruneicontinental.com".
+
+:team_BTC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "SLO";
+	:email "gpenko@kdrog.si";
+	:name "BTC CITY LJUBLJANA";
+	:teamCategory "CTW";
+	:website "http://www.kolesarke.si".
+
+:team_BBH rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "julioandres@jrf.es";
+	:name "BURGOS - BH";
+	:teamCategory "PCT";
+	:website "http://www.burgosproteam.com/".
+
+:team_CJR rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "varizaleta@teamcajarural-segurosrga.com";
+	:name "CAJA RURAL - SEGUROS RGA";
+	:teamCategory "PCT";
+	:website "https://www.teamcajarural-segurosrga.com".
+
+:team_CAS rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "MEX";
+	:email "promobike.jmg@gmail.com";
+	:name "CANEL'S - SPECIALIZED";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/CanelsSpecialized/".
+
+:team_CSR rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "contact@wmncycling.com";
+	:name "CANYON / /SRAM RACING";
+	:teamCategory "CTW";
+	:website "http://www.wmncycling.com".
+
+:team_DHB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GBR";
+	:email "tim@canyoneisberg.co.uk";
+	:name "CANYON DHB P /   B BLOOR HOMES";
+	:teamCategory "CTM";
+	:website "https://canyoneisberg.co.uk".
+
+:team_CCC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "eric@ccclivteam.eu";
+	:name "CCC - LIV";
+	:teamCategory "CTW";
+	:website "http://www.ccclivteam.eu".
+
+:team_CDT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POL";
+	:email "proteam@cccsport.eu";
+	:name "CCC DEVELOPMENT TEAM";
+	:teamCategory "CTM";
+	:website "https://cccsport.eu".
+
+:team_CCC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POL";
+	:email "chilcott@cccteam.eu";
+	:name "CCC TEAM";
+	:teamCategory "WTT";
+	:website "https://cccteam.eu".
+
+:team_CMW rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "cmwomencycling@gmail.com";
+	:name "CHARENTE - MARITIME WOMEN CYCLING";
+	:teamCategory "CTW";
+	:website "http://www.charente-maritime-cycling.fr".
+
+:team_GCB rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "15095393412@139.com";
+	:name "CHINA CONTINENTAL TEAM OF GANSU BANK";
+	:teamCategory "CTM";
+	:website "http://www.gansusport.gov.cn/".
+
+:team_GPC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "HKG";
+	:email "china-team@live.cn";
+	:name "CHINA LIV PRO CYCLING";
+	:teamCategory "CTW";
+	:website "http://cycling-sports.com".
+
+:team_CIB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "gaspard.vanpeteghem@sint-niklaas.be";
+	:name "CIBEL";
+	:teamCategory "CTM";
+	:website "https://www.team-cibel-cebon.be".
+
+:team_COF rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "cofidiscompetition@orange.fr";
+	:name "COFIDIS, SOLUTIONS CREDITS";
+	:teamCategory "PCT";
+	:website "https://www.equipecofidis.com".
+
+:team_CGS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "RUS";
+	:email "r.contreras@cogeas.ch";
+	:name "COGEAS METTLER LOOK PRO CYCLING TEAM";
+	:teamCategory "CTW";
+	:website "https://www.cogeascycling.com/".
+
+:team_CBS rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "COL";
+	:email "alce1977@gmail.com";
+	:name "COLDEPORTES BICICLETAS STRONGMAN";
+	:teamCategory "CTM";
+	:website "http://www.fundacionstrongman.com.co".
+
+:team_ECZ rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "COL";
+	:email "ciclismo@coc.org.co";
+	:name "COLDEPORTES ZENU";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/ColdeportesZenu/".
+
+:team_CZF rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ALB";
+	:email "fanini.proteam@gmail.com";
+	:name "CONCERIA ZABRI - FANINI";
+	:teamCategory "CTW";
+	:website "https://www.procyclingteam.it".
+
+:team_COC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "info@corendon-circus.be";
+	:name "CORENDON - CIRCUS";
+	:teamCategory "PCT";
+	:website "http://www.corendon-circus.be".
+
+:team_CCI rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "INA";
+	:email "lombacustomscycling@gmail.com";
+	:name "CUSTOMS CYCLING INDONESIA";
+	:teamCategory "CTM";
+	:website "http://www.advanccc.com/".
+
+:team_CTF rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "cyclingteamfriuli@gmail.com";
+	:name "CYCLING TEAM FRIULI ASD";
+	:teamCategory "CTM";
+	:website "http://www.ctfriuli.com".
+
+:team_AZT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "info@areazeroproteam.com";
+	:name "D'AMICO UM TOOLS";
+	:teamCategory "CTM";
+	:website "https://www.areazeroproteam.com".
+
+:team_DCB rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "CAN";
+	:email "ernsting@m1sportsmanagement.com";
+	:name "DC BANK PRO CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "https://www.m1procycling.com".
+
+:team_DQT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "INFO@DECOLEF.COM";
+	:name "DECEUNINCK  -  QUICK - STEP";
+	:teamCategory "WTT";
+	:website "https://www.quickstepfloorscycling.com".
+
+:team_DMP rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "communication@rpcycling.com";
+	:name "DELKO MARSEILLE PROVENCE";
+	:teamCategory "PCT";
+	:website "http://www.teamdelkomarseilleprovence.com".
+
+:team_DPA rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "BOL";
+	:email "roci_c_92@hotmail.com";
+	:name "DEPRISA TEAM";
+	:teamCategory "CTM";
+	:website "https://www.deprisa.com/equipo-ciclismo-deprisa".
+
+:team_DSU rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "cycling@keep-challenging.com";
+	:name "DEVELOPMENT TEAM SUNWEB";
+	:teamCategory "CTM";
+	:website "http://www.teamsunweb.com".
+
+:team_DDC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "ddrafricandevelopment@gmail.com";
+	:name "DIMENSION DATA FOR QHUBEKA CONTINENTAL TEAM";
+	:teamCategory "CTM";
+	:website "http://www.africasteam.com".
+
+:team_DVE rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "mb2301@hotmail.com";
+	:name "DOLTCINI - VAN EYCK SPORT UCI WOMEN CYCLING";
+	:teamCategory "CTW";
+	:website "http://doltcini-vaneycksport.com/".
+
+:team_DCC rdf:type owl:NamedIndividual, :Team ;
+	:continent "OCE";
+	:country "AUS";
+	:email "info@drapaccycling.com";
+	:name "DRAPAC CANNONDALE HOLISTIC DEVELOPMENT TEAM";
+	:teamCategory "CTM";
+	:website "https://drapaccycling.com/".
+
+:team_DRP rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GBR";
+	:email "bob@dropscycling.com";
+	:name "DROPS";
+	:teamCategory "CTW";
+	:website "http://www.dropscycling.com".
+
+:team_DKB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "SVK";
+	:email "frano@duklacycling.eu";
+	:name "DUKLA BANSKA BYSTRICA";
+	:teamCategory "CTM";
+	:website "http://duklacycling.eu/".
+
+:team_EF1 rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "procyclingteam@ef.com";
+	:name "EF EDUCATION FIRST";
+	:teamCategory "WTT";
+	:website "http://www.efprocycling.com".
+
+:team_EFP rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POR";
+	:email "geral@fullracing.pt";
+	:name "EFAPEL";
+	:teamCategory "CTM";
+	:website "https://www.fullracing.pt/".
+
+:team_ELV rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "heathblackgrove@me.com";
+	:name "ELEVATE - KHS PRO CYCLING";
+	:teamCategory "CTM";
+	:website "http://elevate-khsprocycling.com".
+
+:team_ELA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "CZE";
+	:email "info@hkcycling.cz";
+	:name "ELKOV - AUTHOR";
+	:teamCategory "CTM";
+	:website "http://www.hkcycling.cz".
+
+:team_EIC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "eneritzitu@hotmail.com";
+	:name "ENEICUE CYCLING TEAM";
+	:teamCategory "CTW";
+	:website "http://www.eneritziturriaga.com".
+
+:team_EPM rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "COL";
+	:email "braulmesa3@une.net.co";
+	:name "EPM";
+	:teamCategory "CTM";
+	:website "http://www.epmciclismo.com.co/sitio/.".
+
+:team_EMP rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "ARG";
+	:email "horacio.mp.atl@live.com";
+	:name "EQUIPO CONTINENTAL MUNICIPALIDAD DE POCITO";
+	:teamCategory "CTM";
+	:website "http://www.pocito.gob.ar".
+
+:team_EOP rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "COL";
+	:email "orgullopaisaciclismo@yahoo.es";
+	:name "EQUIPO CONTINENTAL ORGULLO PAISA";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/ciclismoorgullopaisa/".
+
+:team_EUK rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "fundacion@fundacioneuskadi.eus";
+	:name "EQUIPO EUSKADI";
+	:teamCategory "CTM";
+	:website "https://www.fundacioneuskadi.eus".
+
+:team_SBT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "info@stillalluminio.it";
+	:name "EUROTARGET - BIANCHI - VITTORIA";
+	:teamCategory "CTW";
+	:website "http://www.stillbike.it".
+
+:team_EUS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "ciclismo@muriasgrupo.com";
+	:name "EUSKADI BASQUE COUNTRY - MURIAS";
+	:teamCategory "PCT";
+	:website "http://www.murias-taldea.com/".
+
+:team_EVO rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "IRL";
+	:email "morgan@evoproracing.com";
+	:name "EVOPRO RACING";
+	:teamCategory "CTM";
+	:website "http://www.evoproracing.com".
+
+:team_FDJ rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "s.delcourt@velofeminin.com";
+	:name "FDJ NOUVELLE - AQUITAINE FUTUROSCOPE";
+	:teamCategory "CTW";
+	:website "http://fdj-nouvelle-aquitaine-futuroscope.com".
+
+:team_DFT rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "IRI";
+	:email "dftcyclingteam@gmail.com";
+	:name "FENGSHENG SPORTS DFT TEAM";
+	:teamCategory "CTM";
+	:website "http://www.ccnsport.com".
+
+:team_FCT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "UKR";
+	:email "chenyang86@qq.com";
+	:name "FEREI PRO CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.tvorproject.com/".
+
+:team_FPC rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "CAN";
+	:email "stmcfarlane@gmail.com";
+	:name "FLOYD'S PRO CYCLING";
+	:teamCategory "CTM";
+	:website "http://www.canamcycling.com".
+
+:team_FSC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "IRI";
+	:email "f.sepahancyclingteam@gmail.com";
+	:name "FOOLAD MOBARAKEH SEPAHAN";
+	:teamCategory "CTM";
+	:website "http://www.sepahansc.com/en-us/".
+
+:team_FMP rdf:type owl:NamedIndividual, :Team ;
+	:continent "OCE";
+	:country "AUS";
+	:email "futuroprocycling@hotmail.com";
+	:name "FUTURO - MAXXIS PRO CYCLING";
+	:teamCategory "CTM";
+	:website "http://futuroprocycling.com".
+
+:team_GPC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KOR";
+	:email "gp-sports@hanmail.net";
+	:name "GAPYEONG CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.gpcosa.com".
+
+:team_GAZ rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "RUS";
+	:email "team@rusvelo.pro";
+	:name "GAZPROM - RUSVELO";
+	:teamCategory "PCT";
+	:website "http://www.gazprom-rusvelo.com".
+
+:team_GIC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KOR";
+	:email "korea.srm@gmail.com";
+	:name "GEUMSAN INSAM CELLO";
+	:teamCategory "CTM";
+	:website "https://www.geumsan.go.kr/en/".
+
+:team_MSS rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "WUJUFANG@MSSCYCLING.COM";
+	:name "GIANT CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "HTTP://CYCLING-SPORTS.COM".
+
+:team_GTV rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ROU";
+	:email "savoryacyclingteam@gmail.com";
+	:name "GIOTTI VICTORIA";
+	:teamCategory "CTM";
+	:website "https://savoryacyclingteam.ro/".
+
+:team_G4G rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "PHI";
+	:email "edzhualda@yahoo.com";
+	:name "GO FOR GOLD PHILIPPINES";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/Go4GoldPH/".
+
+:team_CGF rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "david.lebourdiec@equipegroupamafdj.fr";
+	:name "GROUPAMA - FDJ";
+	:teamCategory "CTM";
+	:website "http://www.equipecycliste-groupama-fdj.fr".
+
+:team_GFC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "david.lebourdiec@equipegroupamafdj.fr";
+	:name "GROUPAMA - FDJ";
+	:teamCategory "WTT";
+	:website "http://www.equipecycliste-groupama-fdj.fr".
+
+:team_GUE rdf:type owl:NamedIndividual, :Team ;
+	:continent "AFR";
+	:country "GBS";
+	:email "salgueiro.81@hotmail.com";
+	:name "GUERCIOTTI -KIWI ATLANTICO";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/GuerciottiKiwiAtlantico/".
+
+:team_GWS rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "COL";
+	:email "gerencia@ruedasdeoro.com.co";
+	:name "GW SHIMANO";
+	:teamCategory "CTM";
+	:website "http://www.ruedasdeoro.com.co/".
+
+:team_HBS rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "supermintusa@gmail.com";
+	:name "HAGENS BERMAN / SUPERMINT";
+	:teamCategory "CTW";
+	:website "http://www.supermintusa.com".
+
+:team_HBA rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "info@axelmerckxproject.com";
+	:name "HAGENS BERMAN AXEON";
+	:teamCategory "PCT";
+	:website "http://www.axeoncycling.com".
+
+:team_HMT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "patrick@bizzard.be";
+	:name "HEALTH MATE - LADIES TEAM";
+	:teamCategory "CTW";
+	:website "https://www.facebook.com/HealthMateCycleliveTeam/".
+
+:team_HRN rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "info@heizomat-rad-net.de";
+	:name "HEIZOMAT RAD - NET.DE";
+	:teamCategory "CTM";
+	:website "https://www.heizomat-rad-net.de".
+
+:team_HEN rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "hengxiangcycling@vip.163.com";
+	:name "HENGXIANG CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.hengxiangracing.com".
+
+:team_HRR rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "teamleitung@radteam-herrmann.de";
+	:name "HERRMANN RADTEAM";
+	:teamCategory "CTM";
+	:website "https://www.herrmann-radteam.de".
+
+:team_HPU rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NOR";
+	:email "karl.lima@hitecproducts.no";
+	:name "HITEC PRODUCTS - BIRK SPORT";
+	:teamCategory "CTW";
+	:website "https://teamhitecproducts.no".
+
+:team_HKS rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "HKG";
+	:email "irisp@hksi.org.hk";
+	:name "HKSI PRO CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "https://www.hksi.org.hk".
+
+:team_HAC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "AUT";
+	:email "alexander@hrinkow-bikes.at";
+	:name "HRINKOW ADVARICS CYCLEANG";
+	:teamCategory "CTM";
+	:website "http://www.cycleang.com".
+
+:team_THU rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POL";
+	:email "info@hurom.team";
+	:name "HUROM BDC DEVELOPMENT";
+	:teamCategory "CTM";
+	:website "https://hurom.team/".
+
+:team_IAM rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "SUI";
+	:email "info@iam-excelsior.ch";
+	:name "IAM EXCELSIOR";
+	:teamCategory "CTM";
+	:website "http://vcmartigny.ch/iam-excelsior/".
+
+:team_DCT rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "DOM";
+	:email "DOMINICANCYCLINGPROJECT@GMAIL.COM";
+	:name "INTEJA IMCA - RIDEA DCT";
+	:teamCategory "CTM";
+	:website "HTTP://WWW.INTEJA.DO".
+
+:team_IPC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "JPN";
+	:email "sebastienpilotte@gmail.com";
+	:name "INTERPRO CYCLING ACADEMY";
+	:teamCategory "CTM";
+	:website "http://icpteamofficial.wixsite.com/".
+
+:team_IRC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "iseorimecarnovali@gmail.com";
+	:name "ISEO SERRATURE - RIME - CARNOVALI";
+	:teamCategory "CTM";
+	:website "https://www.iseorimecarnovali.com".
+
+:team_ICA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ISR";
+	:email "info@cyclingacademy.org";
+	:name "ISRAEL CYCLING ACADEMY";
+	:teamCategory "PCT";
+	:website "https://www.israelcyclingacademy.com/".
+
+:team_JLC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "jilunsports@qq.com";
+	:name "JILUN CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "HTTP://WWW.JILUNSPORTS.COM".
+
+:team_JFN rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NOR";
+	:email "post@jokericopal.no";
+	:name "JOKER FUEL OF NORWAY";
+	:teamCategory "CTM";
+	:website "https://www.jokericopal.com".
+
+:team_KFC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "INA";
+	:email "kfc.cycling@gmail.com";
+	:name "KFC CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/kfccycling/".
+
+:team_KIN rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "JPN";
+	:email "team@kinan-cycling.com";
+	:name "KINAN CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://kinan-cycling.com".
+
+:team_KMT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "info@polarteckometateam.com";
+	:name "KOMETA CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://polarteckometateam.com".
+
+:team_KCT rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KOR";
+	:email "do2245573@gmail.com";
+	:name "KORAIL CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.korail.com".
+
+:team_KSP rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KOR";
+	:email "kang8833@gmail.com";
+	:name "KSPO BIANCHI ASIA PRO CYCLING";
+	:teamCategory "CTM";
+	:website "http://www.kspo.or.kr".
+
+:team_KBS rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "kunbao_team@163.com";
+	:name "KUNBAO SPORT CONTINENTAL CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.wlcbmarathon.com".
+
+:team_TKC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "UKR";
+	:email "info@kolss-team.com";
+	:name "KYIV CAPITAL TEAM";
+	:teamCategory "CTM";
+	:website "http://www.kolss-team.com".
+
+:team_LAA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POR";
+	:email "geral@aluminios.la";
+	:name "L. A. ALUMINIOS / L. A. SPORT";
+	:teamCategory "CTM";
+	:website "http://www.aluminios.la/".
+
+:team_LPC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "LUX";
+	:email "info@leopard.lu";
+	:name "LEOPARD PRO CYCLING";
+	:teamCategory "CTM";
+	:website "http://leopardracing.com".
+
+:team_LGS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "SLO";
+	:email "info@kdrog.si";
+	:name "LJUBLJANA GUSTO SANTIC";
+	:teamCategory "CTM";
+	:website "http://kdrog.si".
+
+:team_LKT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "steffen@blochwitz.biz";
+	:name "LKT TEAM BRANDENBURG";
+	:teamCategory "CTM";
+	:website "https://lkt-team-brandenburg.de/".
+
+:team_LOK rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "RUS";
+	:email "lokosfinks@mail.ru";
+	:name "LOKOSPHINX";
+	:teamCategory "CTM";
+	:website "http://velodrom.spb.ru".
+
+:team_LTS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "info@lottosoudal.be";
+	:name "LOTTO SOUDAL";
+	:teamCategory "WTT";
+	:website "http://www.lottosoudal.be".
+
+:team_LSL rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "danyschoonbaert@hotmail.com";
+	:name "LOTTO SOUDAL LADIES";
+	:teamCategory "CTW";
+	:website "http://lottosoudal.be/ladies-nl/ladies-nieuws/".
+
+:team_LCT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "UKR";
+	:email "lvivcycling@gmail.com";
+	:name "LVIV CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/Lviv-Cycling-Team-2007999".
+
+:team_LCW rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "UKR";
+	:email "lvivcycling@gmail.com";
+	:name "LVIV CYCLING TEAM";
+	:teamCategory "CTW";
+	:website "https://www.facebook.com/Lviv-Cycling-Team-2007999".
+
+:team_LXC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KOR";
+	:email "4169506@hanmail.net";
+	:name "LX CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "https://m.facebook.com/lxcyclingteam/".
+
+:team_MGT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GBR";
+	:email "roger.hammond@madison.co.uk";
+	:name "MADISON GENESIS";
+	:teamCategory "CTM";
+	:website "https://www.madison.co.uk/".
+
+:team_MPB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "AUT";
+	:email "office@radrennteam-graz.com";
+	:name "MALOJA PUSHBIKERS";
+	:teamCategory "CTM";
+	:website "http://www.pushbikers.com/".
+
+:team_MZN rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "COL";
+	:email "info@manzanapostobonteam.com";
+	:name "MANZANA POSTOBON TEAM";
+	:teamCategory "PCT";
+	:website "http://manzanapostobonteam.com/".
+
+:team_MAT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "angeldepals@gmail.com";
+	:name "MASSI - TACTIC WOMEN TEAM";
+	:teamCategory "CTW";
+	:website "http://www.clubciclistabaixter.com".
+
+:team_VIV rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "PAR";
+	:email "teammassivivo@gmail.com";
+	:name "MASSI VIVO - GRUPO ORESY";
+	:teamCategory "CTM";
+	:website "http://www.oresy.org".
+
+:team_MTR rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "JPN";
+	:email "yasuhara@matrix-inc.co.jp";
+	:name "MATRIX POWERTAG";
+	:teamCategory "CTM";
+	:website "http://team-matrix.jp".
+
+:team_MED rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "COL";
+	:email "inscripciones@cccm.co";
+	:name "MEDELLIN";
+	:teamCategory "CTM";
+	:website "https://www.medellin.gov.co".
+
+:team_MPC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "SWE";
+	:email "info@memilprocycling.com";
+	:name "MEMIL PRO CYCLING";
+	:teamCategory "CTM";
+	:website "http://www.memilprocycling.com".
+
+:team_MKT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "CRO";
+	:email "bk.kamen.pazin@pu.t-com.hr";
+	:name "MERIDIANA KAMEN TEAM";
+	:teamCategory "CTM";
+	:website "http://www.teammeridiana.it/".
+
+:team_MET rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "gchoften@gmail.com";
+	:name "METEC - TKH CONTINENTAL CYCLINGTEAM P / B MANTEL";
+	:teamCategory "CTM";
+	:website "http://www.meteccyclingteam.nl".
+
+:team_MCC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BLR";
+	:email "info@minskcyclingclub.com";
+	:name "MINSK CYCLING CLUB";
+	:teamCategory "CTM";
+	:website "http://www.minskcyclingclub.com".
+
+:team_MCC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BLR";
+	:email "info@minskcyclingclub.com";
+	:name "MINSK CYCLING CLUB";
+	:teamCategory "CTW";
+	:website "http://www.minskcyclingclub.com".
+
+:team_MIR rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POR";
+	:email "veloclubedocentro@hotmail.com";
+	:name "MIRANDA -  MORTÁGUA";
+	:teamCategory "CTM";
+	:website "http://www.miranda-mortagua.com".
+
+:team_MBE rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "shayne.bannan@greenedgecycling.com";
+	:name "MITCHELTON - BIKEEXCHANGE";
+	:teamCategory "CTM";
+	:website "https://www.greenedgecycling.com/".
+
+:team_MTS rdf:type owl:NamedIndividual, :Team ;
+	:continent "OCE";
+	:country "AUS";
+	:email "info@greenedgecycling.com";
+	:name "MITCHELTON - SCOTT";
+	:teamCategory "WTT";
+	:website "https://www.greenedgecycling.com/".
+
+:team_MTS rdf:type owl:NamedIndividual, :Team ;
+	:continent "OCE";
+	:country "AUS";
+	:email "shayne.bannan@greenedgecycling.com";
+	:name "MITCHELTON SCOTT";
+	:teamCategory "CTW";
+	:website "https://www.greenedgecycling.com".
+
+:team_MTA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "info@monkeytownct.nl";
+	:name "MONKEY TOWN - A BLOCK CT";
+	:teamCategory "CTM";
+	:website "https://www.monkeytownct.nl".
+
+:team_MOV rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "info@abarcasports.com";
+	:name "MOVISTAR TEAM";
+	:teamCategory "WTT";
+	:website "http://movistarteam.com/".
+
+:team_MTE rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "ECU";
+	:email "rpm.ecu@gmail.com";
+	:name "MOVISTAR TEAM ECUADOR";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/insidesportsec/".
+
+:team_MOV rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "infowomen@abarcasports.com";
+	:name "MOVISTAR TEAM WOMEN";
+	:teamCategory "CTW";
+	:website "http://movistarteam.com/".
+
+:team_MRW rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "ARG";
+	:email "deportesrawson@gmail.com";
+	:name "MUNICIPALIDAD DE RAWSON";
+	:teamCategory "CTM";
+	:website "http://www.municipioderawson.gov.ar/NewSite2/".
+
+:team_NAS rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "JPN";
+	:email "info@nasublasen.com";
+	:name "NASU BLASEN";
+	:teamCategory "CTM";
+	:website "https://nasublasen.com/".
+
+:team_NRL rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "veloclubroubaix@nordnet.fr";
+	:name "NATURA4EVER - ROUBAIX - LILLE METROPOLE";
+	:teamCategory "CTM";
+	:website "http://www.equipe-cycliste-roubaix.com".
+
+:team_NSK rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "admin@tharcorltd.com";
+	:name "NERI SOTTOLI SELLE ITALIA KTM";
+	:teamCategory "PCT";
+	:website "https://www.tharcorltd.com".
+
+:team_NLC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "zhongxuan_sport@sina.com";
+	:name "NINGXIA SPORTS LOTTERY LIVALL GUSTO";
+	:teamCategory "CTM";
+	:website "http://www.zxcycling.com".
+
+:team_NIP rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "info@stcprosrl.com";
+	:name "NIPPO - VINI FANTINI - FAIZANE'";
+	:teamCategory "PCT";
+	:website "http://www.nippovinifantini.com".
+
+:team_OLI rdf:type owl:NamedIndividual, :Team ;
+	:continent "OCE";
+	:country "AUS";
+	:email "contact@oliversracing.com.au";
+	:name "OLIVER'S REAL FOOD RACING";
+	:teamCategory "CTM";
+	:website "http://www.oliversracing.com.au".
+
+:team_OMT rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "IRI";
+	:email "mashhadomidnia@gmail.com";
+	:name "OMIDNIA MASHHAD TEAM";
+	:teamCategory "CTM";
+	:website "http://www.omidnia.com".
+
+:team_PUS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "info@larswackernagel.de";
+	:name "P & S METALLTECHNIK";
+	:teamCategory "CTM";
+	:website "http://www.team-pus-metalltechnik.de".
+
+:team_PNN rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "HUN";
+	:email "drbatorfibela@gmail.com";
+	:name "PANNON CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.pannoncycling.hu".
+
+:team_PHV rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "mail@pushingdreams.nl";
+	:name "PARKHOTEL VALKENBURG";
+	:teamCategory "CTW";
+	:website "http://www.pushingdreams.nl".
+
+:team_PSB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "jm@vistamedia.be";
+	:name "PAUWELS SAUZEN – BINGOAL";
+	:teamCategory "CTM";
+	:website "http://www.pauwelssauzen-bingoal.be".
+
+:team_PGN rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "INA";
+	:email "ubaidillah1224@gmail.com";
+	:name "PGN ROAD CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.prct.co.id".
+
+:team_ACA rdf:type owl:NamedIndividual, :Team ;
+	:continent "OCE";
+	:country "AUS";
+	:email "info@aca-cycling.cc";
+	:name "PRO RACING SUNSHINE COAST";
+	:teamCategory "CTM";
+	:website "https://www.aca-cycling.cc".
+
+:team_PCD rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "CAN";
+	:email "CCV4PRO@HOTMAIL.CA";
+	:name "PROBACLAC / DEVINCI";
+	:teamCategory "CTM";
+	:website "http://ccv4pro.com/".
+
+:team_PRO rdf:type owl:NamedIndividual, :Team ;
+	:continent "AFR";
+	:country "RSA";
+	:email "brad@protouchsports.co.za";
+	:name "PROTOUCH";
+	:teamCategory "CTM";
+	:website "http://protouchsports.co.za/".
+
+:team_RPB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POR";
+	:email "boavistaciclismoclube@gmail.com";
+	:name "RADIO POPULAR - BOAVISTA";
+	:teamCategory "CTM";
+	:website "http://www.boavistaciclismo.com".
+
+:team_RLW rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "info@circuitsport.com";
+	:name "RALLY UHC CYCLING";
+	:teamCategory "CTW";
+	:website "http://www.rallyuhccycling.com".
+
+:team_RLY rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "info@circuitsport.com";
+	:name "RALLY UHC CYCLING";
+	:teamCategory "PCT";
+	:website "http://www.rallyuhccycling.com".
+
+:team_RPC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GBR";
+	:email "team@ribbleprocycling.co.uk";
+	:name "RIBBLE PRO CYCLING";
+	:teamCategory "CTM";
+	:website "http://www.ribbleprocycling.co.uk".
+
+:team_RIW rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "DEN";
+	:email "info@riwalcyclingteam.dk";
+	:name "RIWAL READYNEZ CYCLING TEAM";
+	:teamCategory "PCT";
+	:website "http://www.riwalcyclingteam.dk".
+
+:team_ROC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "office@teamroompot.nl";
+	:name "ROOMPOT - CHARLES";
+	:teamCategory "PCT";
+	:website "http://www.roompot-charles.com".
+
+:team_SBB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "TUR";
+	:email "info@sakarya2020.org";
+	:name "SALCANO SAKARYA BB TEAM";
+	:teamCategory "CTM";
+	:website "http://www.sakarya2020.org".
+
+:team_SAN rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "info@jommidemetrio.com";
+	:name "SANGEMINI - TREVIGIANI - MG.K VIS";
+	:teamCategory "CTM";
+	:website "http://www.jommidemetrio.com".
+
+:team_SFS rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "BRA";
+	:email "MARCELODONNABELLA@GMAIL.COM";
+	:name "SÃO FRANCISCO SAÚDE / KLABIN / SME RIBEIRÃO PRETO";
+	:teamCategory "CTM";
+	:website "http://terraciclismo.com.br".
+
+:team_SEG rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "info@segracing.com";
+	:name "SEG RACING ACADEMY";
+	:teamCategory "CTM";
+	:website "https://segracing.com/".
+
+:team_SCT rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KOR";
+	:email "blue-jhs@nate.com";
+	:name "SEOUL CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "https://www.seoulsports.or.kr/user/action/playerLi".
+
+:team_SER rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "info@atbike.it";
+	:name "SERVETTO - PIUMATE - BELTRAMI TSA";
+	:teamCategory "CTW";
+	:website "http://www.atbike.it".
+
+:team_XDS rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "ftd81@126.com";
+	:name "SHENZHEN XIDESHENG CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.xidesheng.com".
+
+:team_SMN rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "JPN";
+	:email "nodera@sic.shimano.co.jp";
+	:name "SHIMANO RACING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.shimano.com/jp/company/shimano_racing/i".
+
+:team_T20 rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "teamtwenty16@gmail.com";
+	:name "SHO - AIR TWENTY20";
+	:teamCategory "CTW";
+	:website "http://www.teamtwenty20.com".
+
+:team_SEP rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "ARG";
+	:email "sep_sj@hotmail.com";
+	:name "SINDICATO  DE EMPLEADOS PUBLICOS DE SAN JUAN";
+	:teamCategory "CTM";
+	:website "http://www.sepsanjuan.com".
+
+:team_SWT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ESP";
+	:email "sociedadeportivaugeraga@euskalnet.net";
+	:name "SOPELA WOMEN'S TEAM";
+	:teamCategory "CTW";
+	:website "http://www.equipociclistaugeraga.com/".
+
+:team_CCS rdf:type owl:NamedIndividual, :Team ;
+	:continent "AFR";
+	:country "ALG";
+	:email "bopond@yahoo.fr";
+	:name "SOVAC";
+	:teamCategory "CTM";
+	:website "http://www.fac.dz/index.php".
+
+:team_SVB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "christophe@sercu.net";
+	:name "SPORT VLAANDEREN - BALOISE";
+	:teamCategory "PCT";
+	:website "https://www.sportvlaanderen-baloise.be".
+
+:team_CTN rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "AUT";
+	:email "cyclingnoe@gmail.com";
+	:name "SPORT.LAND. NIEDERÖSTERREICH SELLE SMP - ST. RICH";
+	:teamCategory "CTM";
+	:website "https://www.cyclingnoe.com".
+
+:team_STA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POR";
+	:email "info@ciclismodetavira.pt";
+	:name "SPORTING / TAVIRA";
+	:teamCategory "CTM";
+	:website "https://www.ciclismodetavira.pt".
+
+:team_STG rdf:type owl:NamedIndividual, :Team ;
+	:continent "OCE";
+	:country "AUS";
+	:email "sboyce@bcalogic.com.au";
+	:name "ST GEORGE CONTINENTAL CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.stgeorge.cycling.org.au".
+
+:team_AUB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "auber93@wanadoo.fr";
+	:name "ST MICHEL - AUBER 93";
+	:teamCategory "CTM";
+	:website "http://www.StMichel-Auber93.fr".
+
+:team_STF rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "BOL";
+	:email "startcyclingteam@hotmail.com";
+	:name "START CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.startcyclingteam.cc/".
+
+:team_SWA rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "MEX";
+	:email "marcoamc@me.com";
+	:name "SWAPIT AGOLICO";
+	:teamCategory "CTW";
+	:website "https://www.facebook.com/SwapitAgolicoCyclingProTe".
+
+:team_SCB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GBR";
+	:email "paul@swiftcarbonprocycling.co.uk";
+	:name "SWIFTCARBON PRO CYCLING";
+	:teamCategory "CTM";
+	:website "http://www.swiftcarbonprocycling.co.uk".
+
+:team_SRA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "SUI";
+	:email "info@swissracingacademy.ch";
+	:name "SWISS RACING ACADEMY";
+	:teamCategory "CTM";
+	:website "http://www.swissracingacademy.ch".
+
+:team_TMC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "team_miogee@sina.com";
+	:name "TAIYUAN MIOGEE CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://v.qq.com/vplus/263ac093a568f95da0b6c87bb849".
+
+:team_TIS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "peter@wielerploeg.be";
+	:name "TARTELETTO - ISOREX";
+	:teamCategory "CTM";
+	:website "http://www.wielerploeg.be".
+
+:team_PCB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "contact@pcb.bzh";
+	:name "TEAM ARKEA - SAMSIC";
+	:teamCategory "PCT";
+	:website "http://www.team-fortuneo-samsic.fr/".
+
+:team_BLN rdf:type owl:NamedIndividual, :Team ;
+	:continent "OCE";
+	:country "AUS";
+	:email "tom@pavetheway.cc";
+	:name "TEAM BRIDGELANE";
+	:teamCategory "CTM";
+	:website "http://mobiusbridgelane.com.au/".
+
+:team_BGT rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "JPN";
+	:email "keisuke.miyazaki@bridgestone.com";
+	:name "TEAM BRIDGESTONE CYCLING";
+	:teamCategory "CTM";
+	:website "http://www.anchor-bikes.com/".
+
+:team_TCQ rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "DEN";
+	:email "perbaadsgaard@gmail.com";
+	:name "TEAM COLOQUICK";
+	:teamCategory "CTM";
+	:website "https://www.coloquickcycling.dk".
+
+:team_CPK rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "info@teamcolpack.it";
+	:name "TEAM COLPACK";
+	:teamCategory "CTM";
+	:website "http://www.teamcolpack.it".
+
+:team_TCO rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NOR";
+	:email "jan-erik@teamcoopsykkel.no";
+	:name "TEAM COOP";
+	:teamCategory "CTM";
+	:website "http://www.teamcoopsykkel.no".
+
+:team_TDA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "office@dauner-akkon-cycling.com";
+	:name "TEAM DAUNER | AKKON";
+	:teamCategory "CTM";
+	:website "http://dauner-akkon-cycling.com/".
+
+:team_CCD rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "LUX";
+	:email "gatti.gabriel02@gmail.com";
+	:name "TEAM DIFFERDANGE GEBA";
+	:teamCategory "CTM";
+	:website "https://www.continentalteamdifferdange.lu".
+
+:team_TDD rdf:type owl:NamedIndividual, :Team ;
+	:continent "AFR";
+	:country "RSA";
+	:email "info@africasteam.co.za";
+	:name "TEAM DIMENSION DATA";
+	:teamCategory "WTT";
+	:website "HTTP://www.africasteam.com".
+
+:team_RSW rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "AUT";
+	:email "office@rsw-radsport.at";
+	:name "TEAM FELBERMAYR SIMPLON WELS";
+	:teamCategory "CTM";
+	:website "http://www.rsw-radsport.at".
+
+:team_ILU rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "info@illuminatethebike.com";
+	:name "TEAM ILLUMINATE";
+	:teamCategory "CTW";
+	:website "https://www.illuminatethebike.com".
+
+:team_ILU rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "info@illuminatethebike.com";
+	:name "TEAM ILLUMINATE";
+	:teamCategory "CTM";
+	:website "https://www.illuminatethebike.com".
+
+:team_INS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GBR";
+	:email "info@teamineos.com";
+	:name "TEAM INEOS";
+	:teamCategory "WTT";
+	:website "http://www.teamineos.com".
+
+:team_TJV rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "info@teamjumbovisma.nl";
+	:name "TEAM JUMBO - VISMA";
+	:teamCategory "WTT";
+	:website "https://www.teamjumbovisma.nl/".
+
+:team_TKA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "SUI";
+	:email "info@teamkatushaalpecin.com";
+	:name "TEAM KATUSHA ALPECIN";
+	:teamCategory "WTT";
+	:website "https://www.teamkatushaalpecin.com".
+
+:team_LKH rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "florian.monreal@team-lotto-kernhaus.de";
+	:name "TEAM LOTTO - KERN HAUS";
+	:teamCategory "CTM";
+	:website "http://www.team-lotto-kernhaus.de".
+
+:team_TNV rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ROU";
+	:email "cycling@novakgroup.ro";
+	:name "TEAM NOVAK";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/TNVContinentalCyclingTeam".
+
+:team_TNN rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "vassili@teamnovonordisk.com";
+	:name "TEAM NOVO NORDISK";
+	:teamCategory "PCT";
+	:website "https://www.teamnovonordisk.com".
+
+:team_TSC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "MAS";
+	:email "sayutitsc@gmail.com";
+	:name "TEAM SAPURA CYCLING";
+	:teamCategory "CTM";
+	:website "https://www.facebook.com/teamsapuracycling.tsc/".
+
+:team_SVL rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "info@svl-sports.de";
+	:name "TEAM SAUERLAND NRW P / B SKS GERMANY";
+	:teamCategory "CTM";
+	:website "https://www.team-sauerland.com".
+
+:team_TSL rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "info@teamskyline.co";
+	:name "TEAM SKYLINE";
+	:teamCategory "CTM";
+	:website "http://teamskyline.co".
+
+:team_SUN rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "cycling@keep-challenging.com";
+	:name "TEAM SUNWEB";
+	:teamCategory "WTT";
+	:website "https://teamsunweb.com".
+
+:team_SUN rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "cycling@keep-challenging.com";
+	:name "TEAM SUNWEB";
+	:teamCategory "CTW";
+	:website "https://teamsunweb.com".
+
+:team_TIB rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "actionlj@gmail.com";
+	:name "TEAM TIBCO - SILICON VALLEY BANK";
+	:teamCategory "CTW";
+	:website "https://www.teamtibco-svb.com/".
+
+:team_UKO rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "JPN";
+	:email "roadcycle@k-planning.co.jp";
+	:name "TEAM UKYO";
+	:teamCategory "CTM";
+	:website "http://www.teamukyo.com".
+
+:team_TVC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "DEN";
+	:email "cp@virtucycling.com";
+	:name "TEAM VIRTU CYCLING";
+	:teamCategory "CTW";
+	:website "https://teamvirtucycling.com/".
+
+:team_VBG rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "AUT";
+	:email "organisation@proevent-cycling.at";
+	:name "TEAM VORARLBERG SANTIC";
+	:teamCategory "CTM";
+	:website "https://www.team-vorarlberg.at/".
+
+:team_WAO rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "DEN";
+	:email "cp@virtucycling.com";
+	:name "TEAM WAOO";
+	:teamCategory "CTM";
+	:website "https://teamvirtucycling.com/".
+
+:team_WGN rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GBR";
+	:email "andrew@trinitysportsmanagement.com";
+	:name "TEAM WIGGINS LECOL";
+	:teamCategory "CTM";
+	:website "https://www.teamwiggins.co.uk".
+
+:team_TEG rdf:type owl:NamedIndividual, :Team ;
+	:continent "AFR";
+	:country "RSA";
+	:email "cycling@tegasset.com";
+	:name "TEG PROCYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.tegasset.com".
+
+:team_TFL rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "karen.ramakers@sncyclingteam.be";
+	:name "TELENET FIDEA LIONS";
+	:teamCategory "CTM";
+	:website "http://www.telenetfidealions.be".
+
+:team_TSG rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "MAS";
+	:email "tpct.tsg@gmail.com";
+	:name "TERENGGANU INC. TSG CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.terengganucyclingteam.com/".
+
+:team_TCC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "THA";
+	:email "tcctwc2017@gmail.com";
+	:name "THAILAND CONTINENTAL CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.sino.co.th/sino/www/index.php".
+
+:team_TWC rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "THA";
+	:email "tcctwc2017@gmail.com";
+	:name "THAILAND WOMEN'S CYCLING TEAM";
+	:teamCategory "CTW";
+	:website "http://www.sino.co.th/sino/www/index.php".
+
+:team_TYD rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "CHN";
+	:email "lg0808@126.com";
+	:name "TIANYOUDE HOTEL CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://www.tydteam.cn".
+
+:team_TIR rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "AUT";
+	:email "office@team-radlandtirol.at";
+	:name "TIROL KTM CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "http://ridewithpassion.tirol".
+
+:team_TOP rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "lucio.ioghi@gmail.com";
+	:name "TOP GIRLS FASSA BORTOLO";
+	:teamCategory "CTW";
+	:website "http://www.gstopgirls.com".
+
+:team_TDE rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "sa.vendeecyclisme@team-totaldirectenergie.com";
+	:name "TOTAL DIRECT ENERGIE";
+	:teamCategory "PCT";
+	:website "http://www.teamtotaldirectenergie.com".
+
+:team_TFS rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "freddie_stouffer@trekfr.com";
+	:name "TREK - SEGAFREDO";
+	:teamCategory "CTW";
+	:website "https://www.treksegafredo.com".
+
+:team_TFS rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "freddie_stouffer@trekfr.com";
+	:name "TREK - SEGAFREDO";
+	:teamCategory "WTT";
+	:website "http://www.treksegafredo.com".
+
+:team_SKC rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "CZE";
+	:email "info@skcprostejov.cz";
+	:name "TUFO – PARDUS PROSTEJOV";
+	:teamCategory "CTM";
+	:website "https://www.skcprostejov.cz".
+
+:team_UAD rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "UAE";
+	:email "team@uaeteamemirates.com";
+	:name "UAE TEAM EMIRATES";
+	:teamCategory "WTT";
+	:website "http://www.uaeteamemirates.com".
+
+:team_UIO rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POR";
+	:email "geral@bikecp.pt";
+	:name "UD OLIVEIRENSE / INOUTBUILD";
+	:teamCategory "CTM";
+	:website "http://www.bikecp.pt/".
+
+:team_UCT rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KOR";
+	:email "kardo70@hanmail.net";
+	:name "UIJEONGBU CYCLING TEAM";
+	:teamCategory "CTM";
+	:website "https://www.ui4u.go.kr/main.do".
+
+:team_UXT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NOR";
+	:email "jens.haugland@unox.no";
+	:name "UNO - X NORWEGIAN DEVELOPMENT TEAM";
+	:teamCategory "CTM";
+	:website "https://unoxteam.no/nyheter".
+
+:team_BLZ rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "JPN";
+	:email "allez@blitzen.co.jp";
+	:name "UTSUNOMIYA BLITZEN";
+	:teamCategory "CTM";
+	:website "http://www.blitzen.co.jp/".
+
+:team_VAL rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "ITA";
+	:email "TEAMVALCAR@GMAIL.COM";
+	:name "VALCAR CYLANCE CYCLING";
+	:teamCategory "CTW";
+	:website "HTTPS://WWW.TEAM-VALCAR.COM".
+
+:team_VIB rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "BRN";
+	:email "vib.cycling@gmail.com";
+	:name "VIB SPORTS";
+	:teamCategory "CTM";
+	:website "http://www.vibsports.com".
+
+:team_VAM rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "KAZ";
+	:email "vino4ever_sko@mail.ru";
+	:name "VINO - ASTANA MOTORS";
+	:teamCategory "CTM";
+	:website "http://cycling.kz".
+
+:team_VCB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "FRA";
+	:email "slevilain@pce.bike";
+	:name "VITAL CONCEPT - B&B HOTELS";
+	:teamCategory "PCT";
+	:website "https://www.vital-concept-cycling-club.bzh".
+
+:team_CDF rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POR";
+	:email "secretaria@cdfeirense.pt";
+	:name "VITO - FEIRENSE - PNB";
+	:teamCategory "CTM";
+	:website "http://www.cdfeirense.pt/site/ciclismo/".
+
+:team_VIT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GBR";
+	:email "cheriepridham@me.com";
+	:name "VITUS PRO CYCLING  P / B BROTHER UK";
+	:teamCategory "CTM";
+	:website "https://vitusprocycling.com/".
+
+:team_VLA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "NED";
+	:email "dhr.welling@planet.nl";
+	:name "VLASMAN CT";
+	:teamCategory "CTM";
+	:website "https://www.vlasmancyclingteam.nl".
+
+:team_VOS rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POL";
+	:email "vosteruniwheelsteam@gmail.com";
+	:name "VOSTER ATS TEAM";
+	:teamCategory "CTM";
+	:website "http://www.vosteratsteam.pl/".
+
+:team_W52 rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POR";
+	:email "vintagepodio@gmail.com";
+	:name "W52 / FC PORTO";
+	:teamCategory "PCT";
+	:website "http://www.w52fcporto.com".
+
+:team_WBD rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "julie.wavrelle@trworg.be";
+	:name "WALLONIE - BRUXELLES DEVELOPMENT TEAM";
+	:teamCategory "CTM";
+	:website "https://www.foac.be/".
+
+:team_WVA rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "alisson.thimister@trworg.be";
+	:name "WALLONIE BRUXELLES";
+	:teamCategory "PCT";
+	:website "http://www.wbca.be".
+
+:team_WGG rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "BEL";
+	:email "contact@wanty-groupegobert.be";
+	:name "WANTY - GOBERT CYCLING TEAM";
+	:teamCategory "PCT";
+	:website "http://www.wanty-groupegobert.be".
+
+:team_WCC rdf:type owl:NamedIndividual, :Team ;
+	:continent "---";
+	:country "---";
+	:email "cmc@uci.ch";
+	:name "WCC TEAM";
+	:teamCategory "CTW";
+	:website "https://www.uci.org/world-cycling-centre/about".
+
+:team_WIB rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "POL";
+	:email "wibatech.ciasnocha@wp.pl";
+	:name "WIBATECH MERX";
+	:teamCategory "CTM";
+	:website "http://www.wibatech.eu".
+
+:team_WGC rdf:type owl:NamedIndividual, :Team ;
+	:continent "AME";
+	:country "USA";
+	:email "verbeast@aol.com";
+	:name "WILDLIFE GENERATION PRO CYCLING P / B MAXXIS";
+	:teamCategory "CTM";
+	:website "http://www.wildlifegenerationprocycling.com".
+
+:team_WNT rdf:type owl:NamedIndividual, :Team ;
+	:continent "EUR";
+	:country "GER";
+	:email "procycling-team@wnt.com";
+	:name "WNT ROTOR PRO CYCLING TEAM";
+	:teamCategory "CTW";
+	:website "https://www.wnt-rotor-pro-cycling.com".
+
+:team_XSU rdf:type owl:NamedIndividual, :Team ;
+	:continent "ASI";
+	:country "HKG";
+	:email "xspeedcycling@yahoo.com.hk";
+	:name "XSPEED UNITED CONTINENTAL";
+	:teamCategory "CTM";
+	:website "http://xspeedunited.com".
+
