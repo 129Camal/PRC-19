@@ -28,38 +28,32 @@ r = requests.post(
 
 competitions = json.loads(r.text)
 
-
-# ###  http://www.semanticweb.org/fredericopinto/ontologies/2019/5/cyclingworld#competition_56819
-# :competition_56819 rdf:type owl:NamedIndividual ,
-#                             :Tour ;
-#                    :country "UNITED STATES OF AMERICA" ;
-#                    :date "12 May-18 May 2019" ;
-#                    :name "Amgen Tour of California" .
-
-
-# ###  http://www.semanticweb.org/fredericopinto/ontologies/2019/5/cyclingworld#stage_136241
-# :stage_136241 rdf:type owl:NamedIndividual ,
-#                        :Stage ;
-#               :hasRace :competition_56819 ;
-#               :date "18 May 2019" ;
-#               :name "Stage 7" .
-
-
 for competition in competitions['data']:
-    if(re.search(r"(?<!W)WT", competition['ClassCode'])):
-        if(competition['ClassCode'] == "1.UWT"):
+
+    if(not competition['IsInProgress']):
+
+        r = 0
+
+        if(re.search(r"^1\.", competition['ClassCode'])):
             print("\n:competition_" + str(competition['CompetitionId']) + " rdf:type owl:NamedIndividual, :Classic ;",
                   "\t:country \"" + competition['CountryName'] + "\";",
                   "\t:date \"" + competition['Date'] + "\";",
+                  "\t:class \"" + competition['ClassCode'] + "\";",
                   "\t:name \"" + competition['CompetitionName'] + "\".",
                   sep="\n")
+            r = 1
 
-        if(competition['ClassCode'] == "2.UWT"):
+        if(re.search(r"^2\.", competition['ClassCode']) and r == 0):
             print("\n:competition_" + str(competition['CompetitionId']) + " rdf:type owl:NamedIndividual, :Tour ;",
                   "\t:country \"" + competition['CountryName'] + "\";",
                   "\t:date \"" + competition['Date'] + "\";",
+                  "\t:class \"" + competition['ClassCode'] + "\";",
                   "\t:name \"" + competition['CompetitionName'] + "\".",
                   sep="\n")
+            r = 1
+
+        if(r == 0):
+            continue
 
         getStages = {
             'disciplineId': '10',
@@ -120,6 +114,8 @@ for competition in competitions['data']:
                                 position['TeamName'] = "--"
                             if(not position['ResultValue']):
                                 position['ResultValue'] = "--:--:--"
+                            if(not position['IndividualDisplayName']):
+                                position['IndividualDisplayName'] = "Not Available"
 
                             print("\n:position_" + str(position['ResultId']) + " rdf:type owl:NamedIndividual, :Position ;",
                                   "\t:value \"" +
@@ -159,6 +155,8 @@ for competition in competitions['data']:
                                 position['TeamName'] = "--"
                             if(not position['ResultValue']):
                                 position['ResultValue'] = "--:--:--"
+                            if(not position['IndividualDisplayName']):
+                                position['IndividualDisplayName'] = "Not Available"
 
                             print("\n:position_" + str(position['ResultId']) + " rdf:type owl:NamedIndividual, :Position ;",
                                   "\t:value \"" +
@@ -198,6 +196,8 @@ for competition in competitions['data']:
                                 position['TeamName'] = "--"
                             if(not position['ResultValue']):
                                 position['ResultValue'] = "--:--:--"
+                            if(not position['IndividualDisplayName']):
+                                position['IndividualDisplayName'] = "Not Available"
 
                             print("\n:position_" + str(position['ResultId']) + " rdf:type owl:NamedIndividual, :Position ;",
                                   "\t:value \"" +
@@ -237,6 +237,8 @@ for competition in competitions['data']:
                                 position['TeamName'] = "--"
                             if(not position['ResultValue']):
                                 position['ResultValue'] = "--:--:--"
+                            if(not position['IndividualDisplayName']):
+                                position['IndividualDisplayName'] = "Not Available"
 
                             print("\n:position_" + str(position['ResultId']) + " rdf:type owl:NamedIndividual, :Position ;",
                                   "\t:value \"" +
