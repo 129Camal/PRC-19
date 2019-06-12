@@ -1,18 +1,23 @@
 <template>
-  <v-data-table :headers="headers" :items="competitions" class="elevation-1">
-    <template v-slot:no-data>
-      <v-alert :value="true" color="error" icon="red">Sorry, nothing to display here :(</v-alert>
-    </template>
+  <v-layout row wrap>
+    <v-flex xs12 md12>
+      <h1 align="center">Events</h1>
+      <v-data-table :headers="headers" :items="competitions" class="elevation-1">
+        <template v-slot:no-data>
+          <v-alert :value="true" color="error" icon="red">Sorry, nothing to display here :(</v-alert>
+        </template>
 
-    <template slot="items" slot-scope="props">
-      <tr @click="rowClicked(props.item)">
-        <td class="text-xs-center">{{ props.item.date }}</td>
-        <td class="text-xs-center">{{ props.item.names}}</td>
-        <td class="text-xs-center">{{ props.item.country }}</td>
-        <td class="text-xs-center">{{ props.item.class }}</td>
-      </tr>
-    </template>
-  </v-data-table>
+        <template slot="items" slot-scope="props">
+          <tr @click="rowClicked(props.item)">
+            <td class="text-xs-center">{{ props.item.date }}</td>
+            <td class="text-xs-center">{{ props.item.names}}</td>
+            <td class="text-xs-center">{{ props.item.country }}</td>
+            <td class="text-xs-center">{{ props.item.class }}</td>
+          </tr>
+        </template>
+      </v-data-table>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
@@ -30,18 +35,18 @@ export default {
       competitions: [],
       headers: [
         { text: "Date", value: "date", align: "center" },
-        { text: "Name", value: "names", align: "center", sortable: false},
-        { text: "Country", value: "country", align: "center", sortable: false},
+        { text: "Name", value: "names", align: "center", sortable: false },
+        { text: "Country", value: "country", align: "center", sortable: false },
         { text: "Class", value: "class", align: "center" }
       ]
     };
   },
   mounted: function() {
     try {
-      axios.get("http://192.168.1.5:2019/race/all")
+      axios
+        .get("http://192.168.1.83:2019/race/all")
         .then(res => {
           this.competitions = res.data;
-          
         })
         // eslint-disable-next-line
         .catch(err => console.log(err));

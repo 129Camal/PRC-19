@@ -105,3 +105,35 @@ Race.getYouth = (name) => {
 
     return execQuery(query);
 };
+
+Race.listStages = (id) => {
+    const query = `PREFIX : <http://www.semanticweb.org/fredericopinto/ontologies/2019/5/cyclingworld#>
+
+    select ?stages ?name where {
+        ?races a :Race.
+        ?races :name "${id}".
+        ?races :hasStage ?stages.
+        ?stages :name ?name.
+    }`;
+
+    return execQuery(query);
+};
+
+Race.getStageResult = (id, stage) => {
+    const query = `PREFIX : <http://www.semanticweb.org/fredericopinto/ontologies/2019/5/cyclingworld#>
+
+    select ?rank ?name ?team ?value where {
+        ?races a :Race.
+        ?races :name "${id}".
+        ?races :hasStage ?stages.
+         ?stages :name "${stage}".
+        ?stages :hasClassification ?class.
+        ?class :hasPosition ?positions.
+        ?positions :rank ?rank.
+        ?positions :name ?name.
+        ?positions :team ?team.
+        ?positions :value ?value.
+    }`;
+
+    return execQuery(query);
+};

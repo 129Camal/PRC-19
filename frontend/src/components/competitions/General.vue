@@ -40,7 +40,7 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://192.168.1.5:2019/race/general/" + this.$route.params.id)
+        .get("http://192.168.1.83:2019/race/general/" + this.$route.params.id)
         .then(res => {
           this.classification = res.data;
         })

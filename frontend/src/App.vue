@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <v-toolbar>
+    <v-toolbar flat>
       <v-toolbar-side-icon @click="sideNav =! sideNav"></v-toolbar-side-icon>
       <v-toolbar-title>Cycling World</v-toolbar-title>
       <!-- <v-spacer></v-spacer>
