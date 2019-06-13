@@ -1,10 +1,11 @@
 <template>
-  <v-flex xs12 md12>
-    <v-toolbar>
+  <v-flex xs12 md12 v-if="stages[0]">
+    <v-toolbar color="grey lighten-2">
       <v-toolbar-title>Stages</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
-    <v-data-table :headers="headers" :items="stages" class="elevation-1">
+    <v-text-field v-model="search" append-icon="search" label="Search Stage" single-line hide-details></v-text-field>
+    <v-data-table :headers="headers" :items="stages" class="elevation-1" :search="search">
       <template v-slot:no-data>
         <v-alert :value="true" color="error" icon="red">Sorry, nothing to display here :(</v-alert>
       </template>
@@ -34,13 +35,14 @@ export default {
   data() {
     return {
       stages: [],
+      search: '',
       headers: [{ text: "Name", value: "name", align: "center", sortable: false }]
     };
   },
   mounted: function() {
     try {
       axios
-        .get("http://192.168.1.83:2019/race/" + this.$route.params.id + "/stages")
+        .get("http://localhost:2019/race/" + this.$route.params.id + "/stages")
         .then(res => {
           this.stages = res.data;
         })

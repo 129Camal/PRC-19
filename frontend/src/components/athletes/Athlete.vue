@@ -1,48 +1,79 @@
 <template>
   <v-container grid-list-xs>
-    <v-toolbar>
-      <v-toolbar-title>General Classification</v-toolbar-title>
-      <v-spacer></v-spacer>
-    </v-toolbar>
-    <v-data-table :headers="headers" :items="classification" class="elevation-1">
-      <template v-slot:no-data>
-        <v-alert :value="true" color="error" icon="red">Sorry, general classification not available! :(</v-alert>
-      </template>
-
-      <template slot="items" slot-scope="props">
-        <tr>
-          <td class="text-xs-center">{{ props.item.rank }}</td>
-          <td class="text-xs-center">{{ props.item.name}}</td>
-          <td class="text-xs-center">{{ props.item.team }}</td>
-          <td class="text-xs-center">{{ props.item.value}}</td>
-        </tr>
-      </template>
-    </v-data-table>
+    <v-layout row>
+      <v-flex xs12 md12>
+        <v-toolbar color="grey lighten-2">
+          <v-toolbar-title>Athlete Information</v-toolbar-title>
+          <v-spacer></v-spacer>
+        </v-toolbar>
+      </v-flex>
+    </v-layout>
+    <v-layout row wrap>
+      <v-flex xs12 md12>
+        <v-card>
+          <v-layout row justify-center>
+            <v-flex xs12 md12>
+              <v-card-title primary-title class="layout justify-center">
+                <h3>{{this.athlete.name}}</h3>
+              </v-card-title>
+              <br>
+              <br>
+            </v-flex>
+          </v-layout>
+          <v-layout row justify-space-around>
+            <v-flex xs12 md3>
+              <div>
+                <p align="center">
+                  <b>Country:</b>
+                  {{this.athlete.country}}
+                </p>
+              </div>
+            </v-flex>
+            <v-flex xs12 md3>
+              <div>
+                <p align="center">
+                  <b>BirthDate:</b>
+                  {{this.athlete.birth}}
+                </p>
+              </div>
+            </v-flex>
+            <v-flex xs12 md3>
+              <div>
+                <p align="center">
+                  <b>Team:</b>
+                  {{this.athlete.team.split("_")[1]}}
+                </p>
+              </div>
+            </v-flex>
+          </v-layout>
+        </v-card>
+      </v-flex>
+    </v-layout>
+    <Classification v-bind:athName="this.athlete.name"/>
   </v-container>
 </template>
 
 <script>
 import axios from "axios";
+import Classification from "./ListClassifications"
+
 
 export default {
   name: "athlete",
+  components:{
+    Classification
+  },
   data() {
     return {
-      classification: [],
-      headers: [
-        { text: "Position", value: "rank", align: "center" },
-        { text: "Name", value: "name", align: "center", sortable: false },
-        { text: "Team", value: "team", align: "center", sortable: false },
-        { text: "Result", value: "value", align: "center", sortable: false }
-      ]
+      athlete: {}
     };
   },
   mounted: function() {
     try {
       axios
-        .get("http://192.168.1.83:2019/race/general/" + this.$route.params.id)
+        .get("http://localhost:2019/athlete/" + this.$route.params.id)
         .then(res => {
-          this.classification = res.data;
+          this.athlete = res.data[0];
         })
         // eslint-disable-next-line
         .catch(err => console.log(err));

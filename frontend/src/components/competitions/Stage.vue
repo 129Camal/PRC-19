@@ -2,8 +2,8 @@
   <v-container grid-list-xs>
     <v-layout row>
       <v-flex xs12 md12>
-        <v-toolbar>
-          <v-toolbar-title>
+        <v-toolbar color="grey lighten-2">
+          <v-toolbar-title >
             Classification of {{this.$route.params.stage}} -
             <b>{{this.$route.params.id}}</b>
           </v-toolbar-title>
@@ -51,7 +51,7 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://192.168.1.83:2019/race/" + this.$route.params.id + "/stage/" + this.$route.params.stage)
+        .get("http://localhost:2019/race/" + this.$route.params.id + "/stage/" + this.$route.params.stage)
         .then(res => {
           this.results = res.data;
         })

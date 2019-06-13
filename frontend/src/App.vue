@@ -1,8 +1,8 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-toolbar flat>
       <v-toolbar-side-icon @click="sideNav =! sideNav"></v-toolbar-side-icon>
-      <v-toolbar-title>Cycling World</v-toolbar-title>
+      <v-toolbar-title><v-btn flat to="/" >Cycling World</v-btn></v-toolbar-title>
       <!-- <v-spacer></v-spacer>
       <v-toolbar-items>
         <v-btn flat>
@@ -53,3 +53,9 @@ export default {
   },
 };
 </script>
+
+<style>
+body {
+  background-image: url("https://www.boofeaction.de/blog/wp-content/uploads/2016/05/TheGiro.jpg");
+}
+</style>

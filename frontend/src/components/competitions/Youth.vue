@@ -1,7 +1,7 @@
 <template>
-  <v-container grid-list-xs>
-    <v-toolbar>
-      <v-toolbar-title>Youth Classification</v-toolbar-title>
+  <v-container grid-list-xs  v-if="classification[0]">
+    <v-toolbar color="white">
+      <v-toolbar-title >Youth Classification</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
     <v-data-table :headers="headers" :items="classification" class="elevation-1">
@@ -40,7 +40,7 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://192.168.1.83:2019/race/youth/" + this.$route.params.id)
+        .get("http://locahost:2019/race/youth/" + this.$route.params.id)
         .then(res => {
           this.classification = res.data;
         })

@@ -22,7 +22,7 @@ async function execQuery(q){
 Athlete.getAthletes = () => {
     const query = `PREFIX : <http://www.semanticweb.org/fredericopinto/ontologies/2019/5/cyclingworld#>
 
-    select ?name ?teamname ?c where {
+    select ?athlete ?name ?teamname ?c where {
         ?athlete a :Athlete.
         ?athlete :name ?name.
         ?athlete :hasTeam ?team .
@@ -33,3 +33,38 @@ Athlete.getAthletes = () => {
     return execQuery(query);
 
 };
+
+Athlete.getAthlete = (id) => {
+    const query = `PREFIX : <http://www.semanticweb.org/fredericopinto/ontologies/2019/5/cyclingworld#>
+
+    select * where {
+        :athlete_${id} :name ?name.
+        :athlete_${id} :hasTeam ?team.
+        ?team :name ?teamname.
+        :athlete_${id} :birthdate ?birth.
+        :athlete_${id} :country ?country.
+    
+    
+    }`;
+
+    return execQuery(query);
+
+};
+
+Athlete.getAthleteClassification = (name) => {
+    const query = `PREFIX : <http://www.semanticweb.org/fredericopinto/ontologies/2019/5/cyclingworld#>
+
+    select ?rank ?tour where {
+        ?s a :Race.
+        ?s :hasGeneral ?general .
+        ?s :name ?tour .
+        ?general :hasPosition ?positions .
+        ?positions :rank ?rank .
+        ?positions :name "${name}" .
+        
+    }`;
+
+    return execQuery(query);
+
+};
+

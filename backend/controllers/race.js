@@ -126,7 +126,7 @@ Race.getStageResult = (id, stage) => {
         ?races a :Race.
         ?races :name "${id}".
         ?races :hasStage ?stages.
-         ?stages :name "${stage}".
+        ?stages :name "${stage}".
         ?stages :hasClassification ?class.
         ?class :hasPosition ?positions.
         ?positions :rank ?rank.

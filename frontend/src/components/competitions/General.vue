@@ -1,6 +1,6 @@
 <template>
-  <v-container grid-list-xs>
-    <v-toolbar>
+  <v-container grid-list-xs v-if="classification[0]">
+    <v-toolbar color="yellow lighten-2">
       <v-toolbar-title>General Classification</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
@@ -40,7 +40,7 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://192.168.1.83:2019/race/general/" + this.$route.params.id)
+        .get("http://localhost:2019/race/general/" + this.$route.params.id)
         .then(res => {
           this.classification = res.data;
         })

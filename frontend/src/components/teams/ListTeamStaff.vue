@@ -1,6 +1,9 @@
 <template>
   <v-flex xs12 md5>
-    <h1 align="center">Staff</h1>
+    <v-toolbar color="grey lighten-2">
+      <v-toolbar-title>Staff</v-toolbar-title>
+      <v-spacer></v-spacer>
+    </v-toolbar>
     <v-data-table :headers="headers" :items="members" class="elevation-1">
       <template v-slot:no-data>
         <v-alert :value="true" color="error" icon="red">Sorry, nothing to display here :(</v-alert>
@@ -42,7 +45,7 @@ export default {
     try {
       axios
         .get(
-          "http://192.168.1.83:2019/staff/" + this.$route.params.id 
+          "http://localhost:2019/staff/" + this.$route.params.id 
         )
         .then(res => {
           this.members = res.data;

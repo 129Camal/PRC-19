@@ -1,6 +1,9 @@
 <template>
   <v-flex xs12 md5>
-    <h1 align="center">Athletes</h1>
+    <v-toolbar color="grey lighten-2">
+      <v-toolbar-title>Athletes</v-toolbar-title>
+      <v-spacer></v-spacer>
+    </v-toolbar>
     <v-data-table :headers="headers" :items="members" class="elevation-1">
       <template v-slot:no-data>
         <v-alert :value="true" color="error" icon="red">Sorry, nothing to display here :(</v-alert>
@@ -29,7 +32,7 @@ export default {
   },
   methods: {
     rowClicked(item) {
-      this.$router.push("/members/" + item.ath.split("_")[1]);
+      this.$router.push("/athletes/" + item.ath.split("_")[1]);
     }
   },
   data() {
@@ -45,7 +48,7 @@ export default {
     try {
       axios
         .get(
-          "http://192.168.1.83:2019/team/" + this.$route.params.id + "/athlete"
+          "http://localhost:2019/team/" + this.$route.params.id + "/athlete"
         )
         .then(res => {
           this.members = res.data;

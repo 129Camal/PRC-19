@@ -5,7 +5,7 @@
     </v-layout>
     <v-layout row wrap>
       <v-flex x12 md12>
-        <h1 align="center">Final Classifications of {{this.$route.params.id}}</h1>
+        <h1 align="center">Final Classifications</h1>
       </v-flex>
     </v-layout>
     <v-layout row wrap>

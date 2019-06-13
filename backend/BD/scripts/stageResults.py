@@ -69,67 +69,7 @@ for competition in competitions['data']:
         stages = json.loads(r2.text)
 
         for stage in stages['data']:
-            if(stage['RaceName'] != "Final Classification" or stage['RaceName'] != "Final Result"):
-                print("\n:stage_" + str(stage['Id']) + " rdf:type owl:NamedIndividual, :Stage ;",
-                      "\t:date \"" + stage['Date'] + "\";",
-                      "\t:name \"" + stage['RaceName'] + "\".",
-                      sep="\n")
-                print("\n:competition_" + str(
-                    competition['CompetitionId']) + " :hasStage :stage_" + str(stage['Id']) + " .\n")
-
-                getClassifications = {
-                    'disciplineId': '10',
-                    'raceId': str(stage['Id'])
-                }
-
-                r129 = requests.post(
-                    'https://dataride.uci.ch/Results/iframe/Events/', data=getClassifications)
-                
-                classifications = json.loads(r129.text)
-
-                for classification in classifications:
-                    if(classification['EventName'] == "Stage Classification"):
-                        print(
-                            "\n:stageclassification_" + str(classification['EventId']) + " rdf:type owl:NamedIndividual , :StageClassification .\n ")
-                        print("\n:stage_" + str(stage['Id'])+ " :hasClassification :stageclassification_" + str(
-                            classification['EventId']) + " .\n")
-
-                        getGeneral = {
-                            'disciplineId': '10',
-                            'eventId': classification['EventId'],
-                            'take': '500',
-                            'skip': '0',
-                            'page': '1',
-                            'pageSize': '500'
-                        }
-
-                        r128 = requests.post(
-                            'https://dataride.uci.ch/Results/iframe/Results/', data=getGeneral)
-
-                        generalClassification = json.loads(r128.text)
-
-                        for position in generalClassification['data']:
-                            if(not position['TeamName']):
-                                position['TeamName'] = "--"
-                            if(not position['ResultValue']):
-                                position['ResultValue'] = "--:--:--"
-                            if(not position['IndividualDisplayName']):
-                                position['IndividualDisplayName'] = "Not Available"
-
-                            print("\n:position_" + str(position['ResultId']) + " rdf:type owl:NamedIndividual, :Position ;",
-                                  "\t:value \"" +
-                                  position['ResultValue'] + "\";",
-                                  "\t:rank \"" +
-                                  str(position['SortOrder']) + "\";",
-                                  "\t:team \"" + position['TeamName'] + "\";",
-                                  "\t:name \"" +
-                                  position['IndividualDisplayName'] + "\".",
-                                  sep="\n")
-
-                            print("\n:stageclassification_" + str(classification['EventId']) + " :hasPosition :position_" + str(
-                                position['ResultId']) + " .\n")
-
-            else:
+            if(stage['RaceName'] == "Final Classification" or stage['RaceName'] == "Final Result"):
 
                 getClassifications = {
                     'disciplineId': '10',
@@ -304,4 +244,64 @@ for competition in competitions['data']:
                                   sep="\n")
 
                             print("\n:mountain_" + str(classification['EventId']) + " :hasPosition :position_" + str(
+                                position['ResultId']) + " .\n")
+            else:
+
+                print("\n:stage_" + str(stage['Id']) + " rdf:type owl:NamedIndividual, :Stage ;",
+                      "\t:date \"" + stage['Date'] + "\";",
+                      "\t:name \"" + stage['RaceName'] + "\".",
+                      sep="\n")
+                print("\n:competition_" + str(
+                    competition['CompetitionId']) + " :hasStage :stage_" + str(stage['Id']) + " .\n")
+
+                getClassifications = {
+                    'disciplineId': '10',
+                    'raceId': str(stage['Id'])
+                }
+
+                r129 = requests.post(
+                    'https://dataride.uci.ch/Results/iframe/Events/', data=getClassifications)
+
+                classifications = json.loads(r129.text)
+
+                for classification in classifications:
+                    if(classification['EventName'] == "Stage Classification"):
+                        print(
+                            "\n:stageclassification_" + str(classification['EventId']) + " rdf:type owl:NamedIndividual , :StageClassification .\n ")
+                        print("\n:stage_" + str(stage['Id']) + " :hasClassification :stageclassification_" + str(
+                            classification['EventId']) + " .\n")
+
+                        getGeneral = {
+                            'disciplineId': '10',
+                            'eventId': classification['EventId'],
+                            'take': '500',
+                            'skip': '0',
+                            'page': '1',
+                            'pageSize': '500'
+                        }
+
+                        r128 = requests.post(
+                            'https://dataride.uci.ch/Results/iframe/Results/', data=getGeneral)
+
+                        generalClassification = json.loads(r128.text)
+
+                        for position in generalClassification['data']:
+                            if(not position['TeamName']):
+                                position['TeamName'] = "--"
+                            if(not position['ResultValue']):
+                                position['ResultValue'] = "--:--:--"
+                            if(not position['IndividualDisplayName']):
+                                position['IndividualDisplayName'] = "Not Available"
+
+                            print("\n:position_" + str(position['ResultId']) + " rdf:type owl:NamedIndividual, :Position ;",
+                                  "\t:value \"" +
+                                  position['ResultValue'] + "\";",
+                                  "\t:rank \"" +
+                                  str(position['SortOrder']) + "\";",
+                                  "\t:team \"" + position['TeamName'] + "\";",
+                                  "\t:name \"" +
+                                  position['IndividualDisplayName'] + "\".",
+                                  sep="\n")
+
+                            print("\n:stageclassification_" + str(classification['EventId']) + " :hasPosition :position_" + str(
                                 position['ResultId']) + " .\n")

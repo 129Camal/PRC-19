@@ -89,7 +89,7 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://192.168.1.83:2019/team/" + this.$route.params.id)
+        .get("http://localhost:2019/team/" + this.$route.params.id)
         .then(res => {
           this.information = res.data[0];
         })

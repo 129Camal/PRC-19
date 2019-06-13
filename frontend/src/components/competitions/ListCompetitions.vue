@@ -1,8 +1,12 @@
 <template>
   <v-layout row wrap>
     <v-flex xs12 md12>
-      <h1 align="center">Events</h1>
-      <v-data-table :headers="headers" :items="competitions" class="elevation-1">
+      <v-toolbar color="grey lighten-2">
+        <v-toolbar-title>Events</v-toolbar-title>
+        <v-spacer></v-spacer>
+      </v-toolbar>
+      <v-text-field v-model="search" append-icon="search" label="Search Competition" single-line hide-details></v-text-field>
+      <v-data-table :headers="headers" :items="competitions" class="elevation-1" :search="search">
         <template v-slot:no-data>
           <v-alert :value="true" color="error" icon="red">Sorry, nothing to display here :(</v-alert>
         </template>
@@ -33,6 +37,7 @@ export default {
   data() {
     return {
       competitions: [],
+      search: '',
       headers: [
         { text: "Date", value: "date", align: "center" },
         { text: "Name", value: "names", align: "center", sortable: false },
@@ -44,7 +49,7 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://192.168.1.83:2019/race/all")
+        .get("http://localhost:2019/race/all")
         .then(res => {
           this.competitions = res.data;
         })
