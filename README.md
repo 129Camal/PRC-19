@@ -1,6 +1,8 @@
 # PRC-19
 Processamento e Representação de Conhecimento
 
+Cycling World an web app made with Express and Vue to show the results of cycling races and information about the athletes and teams.
+
 # Backend
 
 ## Project setup
