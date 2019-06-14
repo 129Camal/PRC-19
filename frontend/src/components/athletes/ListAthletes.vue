@@ -25,10 +25,12 @@
 
 <script>
 import axios from "axios";
+import { mapGetters } from "vuex";
 
 
 export default {
   name: "listAthletes",
+  computed: mapGetters(["getToken"]),
   methods: {
     rowClicked(item) {
       this.$router.push("/athletes/" + item.athlete.split("_")[1]);
@@ -48,7 +50,9 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://localhost:2019/athlete")
+        .get("http://localhost:2019/athlete", {
+          headers: { Authorization: "Bearer " + this.getToken }
+        })
         .then(res => {
           this.members = res.data;
         })

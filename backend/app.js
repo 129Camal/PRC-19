@@ -4,13 +4,20 @@ var path = require('path');
 const cors = require('cors')
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const mongoose = require('mongoose')
 
 var raceRouter = require('./routes/race');
 var athleteRouter = require('./routes/athlete');
 var teamRouter = require('./routes/team')
 var staffRouter = require('./routes/staff')
+var userRouter = require('./routes/users')
 
 var app = express();
+
+//Connection to the MongoDB
+mongoose.connect('mongodb://127.0.0.1:27017/Cycling', {useNewUrlParser:true})
+  .then(()=> console.log("Mongo Connected!"))
+  .catch(()=>console.log("Error Connection!"))
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -36,6 +43,7 @@ app.use('/race', raceRouter)
 app.use('/athlete', athleteRouter)
 app.use('/team', teamRouter)
 app.use('/staff', staffRouter)
+app.use('/users', userRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

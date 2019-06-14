@@ -3,7 +3,7 @@
     <v-layout row>
       <v-flex xs12 md12>
         <v-toolbar color="grey lighten-2">
-          <v-toolbar-title >
+          <v-toolbar-title>
             Classification of {{this.$route.params.stage}} -
             <b>{{this.$route.params.id}}</b>
           </v-toolbar-title>
@@ -34,9 +34,11 @@
 
 <script>
 import axios from "axios";
+import { mapGetters } from "vuex";
 
 export default {
   name: "points",
+  computed: mapGetters(["getToken"]),
   data() {
     return {
       results: [],
@@ -51,7 +53,15 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://localhost:2019/race/" + this.$route.params.id + "/stage/" + this.$route.params.stage)
+        .get(
+          "http://localhost:2019/race/" +
+            this.$route.params.id +
+            "/stage/" +
+            this.$route.params.stage,
+          {
+            headers: { Authorization: "Bearer " + this.getToken }
+          }
+        )
         .then(res => {
           this.results = res.data;
         })

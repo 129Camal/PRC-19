@@ -24,9 +24,11 @@
 <script>
 import axios from "axios";
 import CountryFlag from "vue-country-flag";
+import { mapGetters } from "vuex";
 
 export default {
   name: "listTeamMembers",
+  computed: mapGetters(["getToken"]),
   components: {
     CountryFlag
   },
@@ -48,7 +50,10 @@ export default {
     try {
       axios
         .get(
-          "http://localhost:2019/team/" + this.$route.params.id + "/athlete"
+          "http://localhost:2019/team/" + this.$route.params.id + "/athlete",
+          {
+            headers: { Authorization: "Bearer " + this.getToken }
+          }
         )
         .then(res => {
           this.members = res.data;

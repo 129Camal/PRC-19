@@ -5,7 +5,13 @@
         <v-toolbar-title>List of Professional Teams</v-toolbar-title>
         <v-spacer></v-spacer>
       </v-toolbar>
-      <v-text-field v-model="search" append-icon="search" label="Search Team" single-line hide-details></v-text-field>
+      <v-text-field
+        v-model="search"
+        append-icon="search"
+        label="Search Team"
+        single-line
+        hide-details
+      ></v-text-field>
       <v-data-table :headers="headers" :items="teams" class="elevation-1" :search="search">
         <template v-slot:no-data>
           <v-alert :value="true" color="error" icon="red">Sorry, nothing to display here :(</v-alert>
@@ -25,9 +31,11 @@
 
 <script>
 import axios from "axios";
+import { mapGetters } from "vuex";
 
 export default {
   name: "listTeams",
+  computed: mapGetters(["getToken"]),
   methods: {
     rowClicked(item) {
       this.$router.push("/teams/" + item.team.split("_")[1]);
@@ -36,7 +44,7 @@ export default {
   data() {
     return {
       teams: [],
-      search: '',
+      search: "",
       headers: [
         { text: "Code", value: "code", align: "center" },
         { text: "Name", value: "name", align: "center", sortable: false },
@@ -52,7 +60,9 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://localhost:2019/team")
+        .get("http://localhost:2019/team", {
+          headers: { Authorization: "Bearer " + this.getToken }
+        })
         .then(res => {
           this.teams = res.data;
         })

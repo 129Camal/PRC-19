@@ -1,12 +1,16 @@
 <template>
-  <v-container grid-list-xs  v-if="classification[0]">
+  <v-container grid-list-xs v-if="classification[0]">
     <v-toolbar color="blue lighten-2">
       <v-toolbar-title>Mountain Classification</v-toolbar-title>
       <v-spacer></v-spacer>
     </v-toolbar>
     <v-data-table :headers="headers" :items="classification" class="elevation-1">
       <template v-slot:no-data>
-        <v-alert :value="true" color="error" icon="red">Sorry, mountain classification not available! :(</v-alert>
+        <v-alert
+          :value="true"
+          color="error"
+          icon="red"
+        >Sorry, mountain classification not available! :(</v-alert>
       </template>
 
       <template slot="items" slot-scope="props">
@@ -23,9 +27,11 @@
 
 <script>
 import axios from "axios";
+import { mapGetters } from "vuex";
 
 export default {
   name: "mountain",
+  computed: mapGetters(["getToken"]),
   data() {
     return {
       classification: [],
@@ -40,7 +46,12 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://localhost:2019/race/mountain/" + this.$route.params.id)
+        .get(
+          "http://localhost:2019/race/mountain/" + this.$route.params.id,
+          {
+            headers: { Authorization: "Bearer " + this.getToken }
+          }
+        )
         .then(res => {
           this.classification = res.data;
         })

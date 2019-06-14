@@ -12,9 +12,7 @@
       <template slot="items" slot-scope="props">
         <tr @click="rowClicked(props.item)">
           <td class="text-xs-center">{{ props.item.name}}</td>
-          <td class="text-xs-center">
-            {{props.item.job}}
-          </td>
+          <td class="text-xs-center">{{props.item.job}}</td>
         </tr>
       </template>
     </v-data-table>
@@ -23,10 +21,11 @@
 
 <script>
 import axios from "axios";
-
+import { mapGetters } from "vuex";
 
 export default {
   name: "listTeamStaff",
+  computed: mapGetters(["getToken"]),
   methods: {
     rowClicked(item) {
       this.$router.push("/members/" + item.ath.split("_")[1]);
@@ -44,9 +43,9 @@ export default {
   mounted: function() {
     try {
       axios
-        .get(
-          "http://localhost:2019/staff/" + this.$route.params.id 
-        )
+        .get("http://localhost:2019/staff/" + this.$route.params.id, {
+          headers: { Authorization: "Bearer " + this.getToken }
+        })
         .then(res => {
           this.members = res.data;
         })

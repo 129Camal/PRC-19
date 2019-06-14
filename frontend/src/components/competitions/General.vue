@@ -23,9 +23,11 @@
 
 <script>
 import axios from "axios";
+import { mapGetters } from "vuex";
 
 export default {
   name: "general",
+  computed: mapGetters(["getToken"]),
   data() {
     return {
       classification: [],
@@ -40,7 +42,9 @@ export default {
   mounted: function() {
     try {
       axios
-        .get("http://localhost:2019/race/general/" + this.$route.params.id)
+        .get("http://localhost:2019/race/general/" + this.$route.params.id, {
+          headers: { Authorization: "Bearer " + this.getToken }
+        })
         .then(res => {
           this.classification = res.data;
         })
